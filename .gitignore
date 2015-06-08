@@ -35,3 +35,10 @@
 
 # Composer PHAR
 /composer.phar
+
+# Provisioning
+ansible.cfg
+devops/
+requirements.txt
+Vagrantfile
+.vagrant/

@@ -46,3 +46,15 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+fansible_devops:
+    #Name of your project
+    name: fansible-devops
+    environments:
+        vagrant:
+            ip: 10.0.0.10
+            host: fansible-devops.dev
+            #Those vars will be used to generate the VagrantFile
+            #box: ubuntu/trusty64
+            memory: 2048
+            cpus: 2
