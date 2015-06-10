@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="catch_phrase">
+                <source>catch_phrase</source>
+                <target>Dominez le monde avec SAASS: Software As A Super Service, la plateforme qui révolutionne tout votre métier.</target>
+            </trans-unit>
+            <trans-unit id="learn_more">
+                <source>learn_more</source>
+                <target>En savoir plus</target>
+            </trans-unit>
+            <trans-unit id="view_details">
+                <source>view_details</source>
+                <target>Voir les détails</target>
+            </trans-unit>
+            <trans-unit id="service_price_is">
+                <source>service_price_is</source>
+                <target>SAASS coûte seulement %price% par mois pendant la première année. Vous ne saurez plus quoi faire de tout votre argent restant.</target>
+            </trans-unit>
+            <trans-unit id="service_is_available">
+                <source>service_is_available</source>
+                <target>SAASS est disponible dès maintenant !</target>
+            </trans-unit>
+            <trans-unit id="service_is_not_available">
+                <source>service_is_not_available</source>
+                <target>SAASS sera bientôt disponible !</target>
+            </trans-unit>
+            <trans-unit id="region">
+                <source>region</source>
+                <target>Région</target>
+            </trans-unit>
+            <trans-unit id="global">
+                <source>global</source>
+                <target>International</target>
+            </trans-unit>
+            <trans-unit id="france">
+                <source>france</source>
+                <target>France</target>
+            </trans-unit>
+            <trans-unit id="great_britain">
+                <source>great_britain</source>
+                <target>Grande-Bretagne</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="catch_phrase">
+                <source>catch_phrase</source>
+                <target>Rule the world with SAASS: Software As A Super Service, the new platform revolutionizing your whole business.</target>
+            </trans-unit>
+            <trans-unit id="learn_more">
+                <source>learn_more</source>
+                <target>Learn more</target>
+            </trans-unit>
+            <trans-unit id="view_details">
+                <source>view_details</source>
+                <target>View details</target>
+            </trans-unit>
+            <trans-unit id="service_price_is">
+                <source>service_price_is</source>
+                <target>SAASS is only %price% per month for the first year. You won't know what to do with all the remaining money.</target>
+            </trans-unit>
+            <trans-unit id="service_is_available">
+                <source>service_is_available</source>
+                <target>SAASS is available right now!</target>
+            </trans-unit>
+            <trans-unit id="service_is_not_available">
+                <source>service_is_not_available</source>
+                <target>SAASS will soon be available!</target>
+            </trans-unit>
+            <trans-unit id="region">
+                <source>region</source>
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="global">
+                <source>global</source>
+                <target>International</target>
+            </trans-unit>
+            <trans-unit id="france">
+                <source>france</source>
+                <target>France</target>
+            </trans-unit>
+            <trans-unit id="great_britain">
+                <source>great_britain</source>
+                <target>Great Britain</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

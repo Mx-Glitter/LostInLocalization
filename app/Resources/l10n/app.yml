@@ -1,0 +1,17 @@
+l10n:
+    currency:
+        global: $
+        fr: €
+        gb: £
+    service:
+        price:
+            global: 499
+            fr: 449
+            gb: 349
+        available:
+            global: false
+            fr: true
+    region:
+        global: global
+        fr: france
+        gb: great_britain
