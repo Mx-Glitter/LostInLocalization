@@ -15,4 +15,21 @@ class DefaultController extends Controller
     {
         return [];
     }
+
+    /**
+     * @Config\Route("/change_locale/{_locale}")
+     */
+    public function changeLocaleAction()
+    {
+        return $this->redirectToRoute('app_default_index');
+    }
+
+    /**
+     * @Config\Route("/change_localization/{localization}")
+     */
+    public function changeLocalizationAction()
+    {
+        return $this->redirectToRoute('app_default_index');
+    }
+
 }

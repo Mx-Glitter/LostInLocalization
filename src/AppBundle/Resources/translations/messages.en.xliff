@@ -42,6 +42,18 @@
                 <source>great_britain</source>
                 <target>Great Britain</target>
             </trans-unit>
+            <trans-unit id="language">
+                <source>language</source>
+                <target>Language</target>
+            </trans-unit>
+            <trans-unit id="en">
+                <source>en</source>
+                <target>English</target>
+            </trans-unit>
+            <trans-unit id="fr">
+                <source>fr</source>
+                <target>French</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
