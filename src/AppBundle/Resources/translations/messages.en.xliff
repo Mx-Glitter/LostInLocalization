@@ -16,7 +16,7 @@
             </trans-unit>
             <trans-unit id="service_price_is">
                 <source>service_price_is</source>
-                <target>SAASS is only %price% per month for the first year. You won't know what to do with all the remaining money.</target>
+                <target><![CDATA[SAASS is only <strong>%price%</strong> per month for the first year. You won't know what to do with all the remaining money.]]></target>
             </trans-unit>
             <trans-unit id="service_is_available">
                 <source>service_is_available</source>
@@ -25,6 +25,14 @@
             <trans-unit id="service_is_not_available">
                 <source>service_is_not_available</source>
                 <target>SAASS will soon be available!</target>
+            </trans-unit>
+            <trans-unit id="new_features_to_support_your_business">
+                <source>new_features_to_support_your_business</source>
+                <target><![CDATA[SAASS has more than <strong>%seventy%</strong> new features to reinforce your company. You'll have never as much supported in your business.]]></target>
+            </trans-unit>
+            <trans-unit id="seventy">
+                <source>seventy</source>
+                <target>seventy</target>
             </trans-unit>
             <trans-unit id="region">
                 <source>region</source>
@@ -53,6 +61,10 @@
             <trans-unit id="fr">
                 <source>fr</source>
                 <target>French</target>
+            </trans-unit>
+            <trans-unit id="fr_BE">
+                <source>fr_BE</source>
+                <target>French (Belgium)</target>
             </trans-unit>
         </body>
     </file>

@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">HAAS</a>
+                <a class="navbar-brand" href="#">SAASS</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -19,13 +19,13 @@
                             {{ 'region'|trans }} - {{ 'region'|l10n|trans }}<span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
+                            {% for region, region_name in region_list %}
+                                <li>
+                                    <a href="{{ path('app_default_changelocalization', {'localization': region}) }}">
+                                        {{ region_name|trans }}
+                                    </a>
+                                </li>
+                            {% endfor %}
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -33,13 +33,13 @@
                             {{ 'language'|trans }} - {{ app.request.locale|trans }}<span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
+                            {% for locale in locale_list %}
+                                <li>
+                                    <a href="{{ path('app_default_changelocale', {'_locale': locale}) }}">
+                                        {{ locale|trans }}
+                                    </a>
+                                </li>
+                            {% endfor %}
                         </ul>
                     </li>
                 </ul>
@@ -59,18 +59,21 @@
         <div class="row">
             <div class="col-md-4">
                 <h2>{{ 'cheap'|trans }}</h2>
-                <p>{{ 'service_price_is'|trans({'%price%': 'service.price'|l10n ~ 'currency'|l10n}) }}</p>
+                <p>
+                    {% set price = 'service.price'|l10n|localizedcurrency('currency.iso'|l10n, app.request.locale) %}
+                    {{ 'service_price_is'|trans({'%price%': price})|raw }}
+                </p>
                 <p>{{ ('service.available'|l10n ? 'service_is_available' : 'service_is_not_available')|trans }}</p>
                 <p><a class="btn btn-default" href="#" role="button">{{ 'view_details'|trans }} »</a></p>
             </div>
             <div class="col-md-4">
                 <h2>{{ 'fast'|trans }}</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p>{{ 'speed_features'|l10n|raw }}</p>
                 <p><a class="btn btn-default" href="#" role="button">{{ 'view_details'|trans }} »</a></p>
             </div>
             <div class="col-md-4">
                 <h2>{{ 'strong' }}</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p>{{ 'new_features_to_support_your_business'|trans({'%seventy%': 'seventy'|trans})|raw }}</p>
                 <p><a class="btn btn-default" href="#" role="button">{{ 'view_details'|trans }} »</a></p>
             </div>
         </div>

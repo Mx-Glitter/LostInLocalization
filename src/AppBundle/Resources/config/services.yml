@@ -1,7 +1,7 @@
 services:
     app.locale_listener:
         class: AppBundle\EventListener\LocaleListener
-        arguments: ["%kernel.default_locale%"]
+        arguments: ["%kernel.default_locale%", @l10n_bundle.business.l10n_provider]
         tags:
             - { name: kernel.event_subscriber }
     app.localization_listener:

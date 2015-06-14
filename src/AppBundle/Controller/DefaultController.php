@@ -13,7 +13,22 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return [];
+        $regionList = [
+            'global' => 'global',
+            'fr'     => 'france',
+            'gb'     => 'great_britain',
+        ];
+
+        $localeList = [
+            'en',
+            'fr',
+            'fr_BE',
+        ];
+
+        return [
+            'region_list' => $regionList,
+            'locale_list' => $localeList,
+        ];
     }
 
     /**

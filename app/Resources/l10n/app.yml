@@ -1,13 +1,14 @@
 l10n:
     currency:
-        global: $
-        fr: €
-        gb: £
+        iso:
+            global: USD
+            fr: EUR
+            gb: GBP
     service:
         price:
-            global: 499
-            fr: 449
-            gb: 349
+            global: 1599
+            fr: 1499
+            gb: 1049
         available:
             global: false
             fr: true
@@ -15,3 +16,16 @@ l10n:
         global: global
         fr: france
         gb: great_britain
+    speed_features:
+        global:
+            - {locale: fr, value: "Nous sommes associés à <strong>SpaceX</strong> pour vous fournir une vitesse inimaginable grâce à leurs <strong>toutes dernières fusées</strong> !"}
+            - {locale: fr_BE, value: "Nous sommes associés à <strong>SpaceX</strong> pour vous fournir une vitesse inimaginable grâce à leurs <strong>toutes dernières fusées</strong> !"}
+            - {locale: en, value: "We have a partnership with <strong>SpaceX</strong> to bring you an incredible speed thanks to their <strong>brand new rockets</strong>!"}
+        gb:
+            - {locale: fr, value: "Les moteurs de notre partenaire <strong>Rolls-Royce</strong> vous propulsent à une <strong>vitesse supersonique</strong> !"}
+            - {locale: fr_BE, value: "Les moteurs de notre partenaire <strong>Rolls-Royce</strong> vous propulsent à une <strong>vitesse supersonique</strong> !"}
+            - {locale: en, value: "Our partner <strong>Rolls-Royce</strong>'s motors propel you at <strong>supersonic speed</strong>!"}
+        fr:
+            - {locale: fr, value: "La vitesse de nos services est uniquement due à notre <strong>travail d'arrache pied</strong>, nous n'avons <strong>pas besoin de partenaire</strong> pour vous accélérer."}
+            - {locale: fr_BE, value: "La vitesse de nos services est uniquement due à notre <strong>travail d'arrache pied</strong>, nous n'avons <strong>pas besoin de partenaire</strong> pour vous accélérer."}
+            - {locale: en, value: "The speed of our sevices is solely the result of our <strong>relentless work</strong>, we <strong>don't need partners</strong> to accelerate you."}

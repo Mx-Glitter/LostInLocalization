@@ -16,7 +16,7 @@
             </trans-unit>
             <trans-unit id="service_price_is">
                 <source>service_price_is</source>
-                <target>SAASS coûte seulement %price% par mois pendant la première année. Vous ne saurez plus quoi faire de tout votre argent restant.</target>
+                <target><![CDATA[SAASS coûte seulement <strong>%price%</strong> par mois pendant la première année. Vous ne saurez plus quoi faire de tout votre argent restant.]]></target>
             </trans-unit>
             <trans-unit id="service_is_available">
                 <source>service_is_available</source>
@@ -25,6 +25,14 @@
             <trans-unit id="service_is_not_available">
                 <source>service_is_not_available</source>
                 <target>SAASS sera bientôt disponible !</target>
+            </trans-unit>
+            <trans-unit id="new_features_to_support_your_business">
+                <source>new_features_to_support_your_business</source>
+                <target><![CDATA[SAASS a plus de <strong>%seventy%</strong> nouvelles fonctionnalités pour renforcer votre entreprise.Vous n'aurez jamais été aussi soutenu dans votre métier.]]></target>
+            </trans-unit>
+            <trans-unit id="seventy">
+                <source>seventy</source>
+                <target>soixante-dix</target>
             </trans-unit>
             <trans-unit id="region">
                 <source>region</source>
@@ -53,6 +61,10 @@
             <trans-unit id="fr">
                 <source>fr</source>
                 <target>Français</target>
+            </trans-unit>
+            <trans-unit id="fr_BE">
+                <source>fr_BE</source>
+                <target>Français (Belgique)</target>
             </trans-unit>
         </body>
     </file>
