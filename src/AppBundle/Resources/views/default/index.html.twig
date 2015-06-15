@@ -43,6 +43,11 @@
                         </ul>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a>{{ 'now'|localizeddate('medium', 'medium', app.request.locale, 'timezone'|l10n) }}</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>

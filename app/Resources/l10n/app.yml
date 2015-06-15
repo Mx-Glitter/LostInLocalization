@@ -29,3 +29,7 @@ l10n:
             - {locale: fr, value: "La vitesse de nos services est uniquement due à notre <strong>travail d'arrache pied</strong>, nous n'avons <strong>pas besoin de partenaire</strong> pour vous accélérer."}
             - {locale: fr_BE, value: "La vitesse de nos services est uniquement due à notre <strong>travail d'arrache pied</strong>, nous n'avons <strong>pas besoin de partenaire</strong> pour vous accélérer."}
             - {locale: en, value: "The speed of our sevices is solely the result of our <strong>relentless work</strong>, we <strong>don't need partners</strong> to accelerate you."}
+    timezone:
+        global: America/Los_Angeles
+        gb: Europe/London
+        fr: Europe/Paris
