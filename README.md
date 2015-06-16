@@ -15,7 +15,7 @@ Application is available at [fansible-devops.dev](fansible-devops.dev).
 
 ### Notes
 
-Provisioning is made with [https://github.com/fansible/DevopsBundle](https://github.com/fansible/DevopsBundle).
+Provisioning is made with [DevopsBundle](https://github.com/fansible/DevopsBundle).
 Requirements to build the virtual environment are listed there.
 You may need some tweaking for the Apache configuration.
 In case you need more info, check [Symfony documentation](http://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html).
