@@ -10,6 +10,18 @@
                 <source>learn_more</source>
                 <target>En savoir plus</target>
             </trans-unit>
+            <trans-unit id="cheap">
+                <source>cheap</source>
+                <target>Abordable</target>
+            </trans-unit>
+            <trans-unit id="fast">
+                <source>fast</source>
+                <target>Rapide</target>
+            </trans-unit>
+            <trans-unit id="strong">
+                <source>strong</source>
+                <target>Puissant</target>
+            </trans-unit>
             <trans-unit id="view_details">
                 <source>view_details</source>
                 <target>Voir les détails</target>
