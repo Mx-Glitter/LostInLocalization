@@ -11,14 +11,11 @@ This is a showcase repository to talk about advanced localization in Symfony2, u
     app/console generate:provisioning
     vagrant up
 
-Application is available at [fansible-devops.dev](fansible-devops.dev).
+At the end of the command, application is available at [fansible-devops.dev](fansible-devops.dev).
 
 ### Notes
 
-Provisioning is made with [DevopsBundle](https://github.com/fansible/DevopsBundle).
-Requirements to build the virtual environment are listed there.
-You may need some tweaking for the Apache configuration.
-In case you need more info, check [Symfony documentation](http://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html).
+Provisioning is made with [DevopsBundle](https://github.com/fansible/DevopsBundle), requirements to build the virtual environment are listed there.
 
 ## Contributing
 
