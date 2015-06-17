@@ -11,7 +11,7 @@ This is a showcase repository to talk about advanced localization in Symfony2, u
     app/console generate:provisioning
     vagrant up
 
-At the end of the command, application is available at [fansible-devops.dev](fansible-devops.dev).
+At the end of the command, application is available at [fansible-devops.dev](http://fansible-devops.dev).
 
 ### Notes
 
