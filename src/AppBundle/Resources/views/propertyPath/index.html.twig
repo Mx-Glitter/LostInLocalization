@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('bundles/app/js/group_collection_type.js') }}"></script>{% endblock %}
+{% block body %}
+    {% form_theme form 'bootstrap_3_layout.html.twig' %}
+    {{ form(form) }}
+{% endblock %}
