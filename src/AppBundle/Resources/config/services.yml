@@ -9,11 +9,3 @@ services:
         arguments: ["@l10n_bundle.business.l10n_provider"]
         tags:
             - { name: kernel.event_subscriber }
-    app.form.type.group:
-        class: AppBundle\Form\GroupType
-        tags:
-            - { name: form.type, alias: group }
-    app.form.type.person:
-        class: AppBundle\Form\PersonType
-        tags:
-            - { name: form.type, alias: person }
